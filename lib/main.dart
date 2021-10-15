@@ -83,7 +83,7 @@ class SignUpPage extends StatelessWidget {
           SizedBox(height: 20,),
 
            Container(
-      padding: EdgeInsets.only(left: 20),
+      padding: EdgeInsets.only(left: 30),
       alignment: Alignment.centerLeft,
       child: Padding(
         padding: const EdgeInsets.all(10.0),
@@ -92,11 +92,11 @@ class SignUpPage extends StatelessWidget {
     ),
     
     Padding(  
-      padding: const EdgeInsets.all(10.0),
+      padding: const EdgeInsets.all(5.0),
       child: Container(
       decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),color: Colors.black,border:Border.all(color: Colors.grey) ),
         padding: EdgeInsets.all(10),
-        height: 60,width: 400,
+        height: 60,width: 450,
 
         child: TextFormField(     
           cursorColor: Colors.transparent,
@@ -112,7 +112,7 @@ class SignUpPage extends StatelessWidget {
       ),
 
       Container(
-      padding: EdgeInsets.only(left: 20),
+      padding: EdgeInsets.only(left: 30),
       alignment: Alignment.centerLeft,
       child: Padding(
         padding: const EdgeInsets.all(10.0),
@@ -129,7 +129,7 @@ class SignUpPage extends StatelessWidget {
           border:Border.all(color: Colors.grey) 
           ),
           padding: EdgeInsets.all(10),
-        height: 60,width: 400,
+        height: 60,width: 450,
          
          child: TextFormField(       
           style: TextStyle(color: Colors.white),  
@@ -147,7 +147,7 @@ class SignUpPage extends StatelessWidget {
         ),
       ),
       Container(
-      padding: EdgeInsets.only(left: 20),
+      padding: EdgeInsets.only(left: 30),
       alignment: Alignment.centerLeft,
       child: Padding(
         padding: const EdgeInsets.all(10.0),
@@ -160,7 +160,7 @@ class SignUpPage extends StatelessWidget {
       child: Container(
       decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),color: Colors.black,border:Border.all(color: Colors.grey) ),
         padding: EdgeInsets.all(10),
-        height: 60,width: 400,
+        height: 60,width: 450,
 
         child: TextFormField(     
           cursorColor: Colors.transparent,
@@ -176,7 +176,7 @@ class SignUpPage extends StatelessWidget {
       ),
       SizedBox(height: 20,),
       Container(
-        height: 60,width: 400,
+        height: 60,width: 450,
         alignment: Alignment.center,
         child: Center(child: Text("Create Account",style: TextStyle(color: Colors.white,letterSpacing: 1,fontWeight: FontWeight.w500,fontSize: 15),),),
 
